@@ -1,2 +1,3 @@
 # hosts
-fisher hosts
+Acest repository contine fisierul hosts
+
