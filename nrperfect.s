@@ -11,7 +11,7 @@
 
 loop:
     cmp  ebx, ecx
-    jg   finish
+    jg   sfarsit
 
     mov  eax, x
     xor  edx, edx
@@ -22,11 +22,11 @@ loop:
 
     add  esi, ebx        
 
-next_i:
+next:
     inc  ebx
     jmp  loop
 
-finish:
+sfarsit:
     mov  eax, 0
     cmp  esi, x
     jne  exit
